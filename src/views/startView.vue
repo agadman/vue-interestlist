@@ -8,5 +8,12 @@
 </script>
 
 <style scoped>
-    
+    h2 {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    p {
+        text-align: center;
+        font-size: 1.2em;    }   
 </style>
