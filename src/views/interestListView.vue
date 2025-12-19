@@ -1,10 +1,12 @@
 <template>
-    <h2>Intresse Lista</h2>
+    <h2>Lista med tv-serier</h2>
+    <AddTvshow @refresh-list="getTvshows" />
     <InterestItem v-for="interest in interests" :interest="interest" :key="interest._id" @delete-tvshow="deleteTvshow" />
 </template>
 
 <script setup>
     import InterestItem from '@/components/InterestItem.vue';
+    import AddTvshow from '@/components/AddTvshow.vue';
     import { ref, onMounted } from 'vue';
 
     const interests = ref([])
@@ -29,7 +31,18 @@
     }
 
     const deleteTvshow = async (id) => {
-        console.log(id);
+        try {
+            const res = await fetch('https://hapi-lab2.onrender.com/tvshows/' + id, {
+                method: 'DELETE'
+            });
+
+            if (res.ok) {
+                getTvshows();
+            }
+
+        } catch (error) {
+            console.log("There was an error: " + error);
+        }
     }
 </script>
 

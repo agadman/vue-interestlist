@@ -9,16 +9,19 @@ const router = createRouter ({
         path: '/',
         name: 'start',
         component: startView,
+        meta: { hero: true }
     },
     {
-        path: '/intresse',
-        name: 'intresse',
+        path: '/tv-serier',
+        name: 'tv-serier',
         component: interestListView,
+        meta: { hero: false }
     },
     {
         path: '/information',
         name: 'information',
         component: informationView,
+        meta: { hero: false }
     }],
 })
 
