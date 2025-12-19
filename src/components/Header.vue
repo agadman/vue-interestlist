@@ -23,7 +23,7 @@
 
 <style scoped>
   .site-header {
-    position: sticky;
+    position: relative;
     top: 0;
     z-index: 100;
     background: #C47E8C;

@@ -38,13 +38,13 @@
     }
 
     .intro h2 {
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
     text-align: center;
+    color: #A75060;
     }
 
     .intro p {
-    font-size: 1.1rem;
     line-height: 1.7;
     color: #444;
     }
