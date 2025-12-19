@@ -1,38 +1,38 @@
-# vue-interestlist
+# Vue applikation – TV-serielista
 
-This template should help get you started developing with Vue 3 in Vite.
+En enkel Single-Page-Application (SPA) byggd med Vue där användaren kan hantera en lista med TV-serier.  
+Applikationen tillåter att lägga till serier med titel, genre och antal säsonger, markera om serien är sedd, ge ett betyg samt ta bort serier.  
 
-## Recommended IDE Setup
+## Funktioner
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Visa lista med TV-serier
+- Lägg till och ta bort serier
+- Markera om serien är sedd och ange betyg
+- Responsiv design (mobile first)
+- Navigering mellan Start, TV-serier och Information
 
-## Recommended Browser Setup
+## Installation
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
 
-### Compile and Minify for Production
+## Bygg för produktion:
 
-```sh
 npm run build
-```
+
+## Teknologier
+
+-	Vue
+-	HTML / CSS / JavaScript
+-	Fetch API för datahantering (https://hapi-lab2.onrender.com/tvshows)
+
+## Projektstruktur
+
+- Startsida med huvudmeny och banner
+- Undersida som konsumerar extern webbtjänst (CRUD: Create, Read, Delete)
+- Informationssida med reflektioner om Vue.js
+- Komponentbaserad struktur med scoped CSS för varje komponent
+
+## Länk till publicerad webbplats
+
+Kommer snart....
