@@ -1,7 +1,7 @@
 <template>
   <section class="hero"></section>
   <section class="intro">
-    <h2>Mitt intresse</h2>
+    <h2>Vue-labb och Tv-serier</h2>
     <p>
         Jag älskar att följa TV-serier - från spännande thrillers till avslappnade
         feel-good-serier. För mig är TV-serier både ett sätt att koppla av och att
@@ -9,13 +9,13 @@
         någon serie som passar, oavsett humör eller tillfälle.
     </p>
     <p>
-        På den här webbplatsen har jag skapat en lista med några av mina favoriter,
-        som kan byggas vidare på och anpassas över tid. Listan går att justera genom
-        att lägga till nya TV-serier eller ta bort sådana som inte längre är
-        aktuella. Tanken är att sidan ska fungera som ett enkelt och flexibelt
-        verktyg för att samla och organisera TV-serier, samtidigt som jag får öva
-        på webbutveckling.
-            </p>
+        Denna webbplats är ett Vue.js-labb där jag har skapat en lista med några av
+        mina favoriter. Syftet med sidan är både att samla och organisera TV-serier
+        samt att öva på Vue-komponenter, routing och reaktiv datahantering.
+        Listan går att justera genom att lägga till nya TV-serier eller ta bort
+        sådana som inte längre är aktuella. Tanken är att sidan ska fungera som ett
+        enkelt och flexibelt verktyg samtidigt som jag lär mig webbutveckling i Vue.
+    </p>
   </section>
 </template>
 

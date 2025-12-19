@@ -35,4 +35,4 @@ npm run build
 
 ## Länk till publicerad webbplats
 
-Kommer snart....
+https://vue-tvshows.netlify.app
